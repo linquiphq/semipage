@@ -868,4 +868,19 @@
   .title-parent7{
     width: 90%;
   }
+
+  .frame-div {
+    width: auto;
+    gap: unset;
+    padding: 0 20px;
+  }
+
+  .sectionsmall-group,
+  .sectionsmall-parent {
+    display: block;
+  }
+
+  .sectionsmall {
+    margin-bottom: 10px;
+  }
 }
