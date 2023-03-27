@@ -235,7 +235,7 @@
 .sectionsmall4 {
   align-self: stretch;
   display: flex;
-  align-items: flex-start;
+  align-items: stretch;
   justify-content: flex-start;
 }
 .sectionsmall4 {
@@ -657,7 +657,7 @@
   align-self: stretch;
   background-color: #f5f7fa;
   overflow: hidden;
-  padding: var(--padding-45xl) var(--padding-5xl);
+  padding: var(--padding-45xl) var(--padding-5xl) 100px;
   align-items: center;
   text-align: left;
   font-size: var(--heading-3-size);
@@ -800,10 +800,6 @@
 }
 
 @media screen and (max-width: 600px) {
-  .navbar-menu .navbar-link b.solutions-and-services{
-    display:none;
-  }
-
   .navbar-content {
     padding-top: 20px;
   }
