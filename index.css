@@ -799,10 +799,25 @@
   font-family: var(--heading-5);
 }
 
+.solutions {
+  display: none;
+}
+
 @media screen and (max-width: 600px) {
+  /***********Navbar***********/
+  .navbar-menu {
+    gap: 10px;
+  }
+  .navbar-menu .solutions {
+    display: block;
+  }
+  .navbar-menu .solutions-and-services {
+    display: none;
+  }
   .navbar-content {
     padding-top: 20px;
   }
+  /*****/
 
   .hero-no-image {
     padding: 20px;
