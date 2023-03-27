@@ -889,4 +889,23 @@
   .contact-form .form{
     width: 90%;
   }
+
+  .our-design-and-development-pro-wrapper {
+    width: auto;
+  }
+
+  .frame-parent2 {
+    width: auto;
+    padding: 0 10px;
+  }
+
+  .at-semicon-software {
+    width: auto;
+    position: unset;
+    padding: 0 20px;
+  }
+
+  .frame-wrapper {
+    padding: var(--padding-21xl) 20px;
+  }
 }
