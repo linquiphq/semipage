@@ -800,9 +800,9 @@
 }
 
 @media screen and (max-width: 600px) {
-  /* body {
+  body {
     border: 5px solid red;
-  } */
+  }
 
   .navbar-content {
     padding-top: 20px;
@@ -846,12 +846,7 @@
   .generative-ai-parent {
     margin-bottom: 20px;
   }
-}
 
-@media screen and (max-width: 600px) {
-  .customized-ai-machine-learni-parent{
-    width: auto;
-  }
   .at-semicon-software-container{
     width: auto;
   }
