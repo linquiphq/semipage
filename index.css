@@ -775,14 +775,14 @@
   color: var(--color-white);
 }
 .fix-cta {
-  position: absolute;
+  position: fixed;
   bottom: 40px;
-  left: calc(50% - 480px);
+  left: 5%;
   background-color: rgba(255, 255, 255, 0.5);
   box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.75) inset,
     -2px -2px 4px rgba(0, 0, 0, 0.1) inset;
   backdrop-filter: blur(24px);
-  width: 960px;
+  width: 90%;
   padding: var(--padding-base) var(--padding-21xl);
   justify-content: flex-start;
   gap: 64px;
@@ -800,6 +800,10 @@
 }
 
 @media screen and (max-width: 600px) {
+  .navbar-menu .navbar-link b.solutions-and-services{
+    display:none;
+  }
+
   .navbar-content {
     padding-top: 20px;
   }
@@ -907,5 +911,10 @@
 
   .frame-wrapper {
     padding: var(--padding-21xl) 20px;
+  }
+
+  .fix-cta{
+    flex-direction: column;
+    gap: 10px;
   }
 }
