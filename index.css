@@ -657,7 +657,7 @@
   align-self: stretch;
   background-color: #f5f7fa;
   overflow: hidden;
-  padding: var(--padding-45xl) var(--padding-5xl) 200px;
+  padding: var(--padding-45xl) var(--padding-5xl);
   align-items: center;
   text-align: left;
   font-size: var(--heading-3-size);
@@ -800,10 +800,6 @@
 }
 
 @media screen and (max-width: 600px) {
-  body {
-    border: 5px solid red;
-  }
-
   .navbar-content {
     padding-top: 20px;
   }
@@ -882,5 +878,15 @@
 
   .sectionsmall {
     margin-bottom: 10px;
+  }
+
+  .contact-form{
+    display:block;
+  }
+  .contact-form .container{
+    width: auto;
+  }
+  .contact-form .form{
+    width: 90%;
   }
 }
