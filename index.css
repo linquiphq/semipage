@@ -583,6 +583,7 @@
   position: relative;
   line-height: 20px;
   font-weight: 600;
+  color: var(--color-white);
 }
 .form-button {
   border-radius: var(--br-5xl);
