@@ -664,7 +664,6 @@
   color: var(--color-black);
 }
 .hero-no-image-parent {
-  position: absolute;
   width: 100%;
   top: 0;
   right: 0;
@@ -791,10 +790,8 @@
   color: var(--color-black);
 }
 .homepage {
-  position: relative;
   background-color: var(--color-white);
   width: 100%;
-  height: 14851px;
   overflow: hidden;
   text-align: left;
   font-size: var(--heading-1-size);
@@ -802,10 +799,10 @@
   font-family: var(--heading-5);
 }
 
-@media screen and (max-width: 480px) {
-  body {
+@media screen and (max-width: 600px) {
+  /* body {
     border: 5px solid red;
-  }
+  } */
 
   .navbar-content {
     padding-top: 20px;
@@ -848,5 +845,32 @@
   .conversational-ai-parent,
   .generative-ai-parent {
     margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .customized-ai-machine-learni-parent{
+    width: auto;
+  }
+  .at-semicon-software-container{
+    width: auto;
+  }
+  .sectionlarge-parent {
+    width: 100%;
+  }
+  .sectionlarge, .sectionlarge1, .sectionlarge2, .sectionlarge3{
+    gap: var(--gap-base);
+    flex-direction: column;
+  }
+  .sectionlarge1{
+    margin-top: 40px;
+    flex-direction: column-reverse;
+  }
+  .sectionlarge-child{
+    width: 80%;
+    height: auto;
+  }
+  .title-parent7{
+    width: 90%;
   }
 }
