@@ -601,6 +601,8 @@
   color: var(--color-white);
 }
 .form-button {
+  border: 0;
+  cursor: pointer;
   border-radius: var(--br-5xl);
   background-color: var(--primary-color);
   height: 48px;
