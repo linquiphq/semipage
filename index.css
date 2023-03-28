@@ -1,3 +1,8 @@
+.main-wrapper{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 .transform-your-business,
 .transforming-supply-chain {
   align-self: stretch;
@@ -58,12 +63,16 @@
   justify-content: flex-start;
   gap: var(--gap-21xl);
 }
+.hero-no-image-wrapper{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 .hero-no-image {
   align-self: stretch;
   height: 960px;
   flex-shrink: 0;
   overflow: hidden;
-  padding: 0 240px;
   justify-content: center;
   background-color: #676666;
   background-image: url(./public/hero-no-image@3x.png);
@@ -389,6 +398,12 @@
   height: 360px;
   flex-shrink: 0;
   object-fit: cover;
+}
+.sectionlarge1 .title-parent7{
+  margin-left: 150px;
+}
+.sectionlarge2 .title-parent7{
+  margin-right: 150px;
 }
 .title-parent7 {
   width: 640px;
@@ -762,6 +777,7 @@
 }
 .navbarcontainer {
   width: 100%;
+  max-width: 1200px;
   flex-shrink: 0;
   justify-content: center;
 }
@@ -894,8 +910,8 @@
     line-height: 30px
   }
 
-  .frame-parent {
-    padding: var(--padding-21xl) 20px;
+  .frame-parent, .frame-parent4 {
+    padding: 24px;
   }
 
   .customized-ai-machine-learni-parent {
@@ -934,6 +950,9 @@
   }
   .title-parent7{
     width: 90%;
+  }
+  .sectionlarge1 .title-parent7, .sectionlarge2 .title-parent7{
+    margin: 0;
   }
 
   .frame-div {
@@ -983,5 +1002,8 @@
   .fix-cta{
     flex-direction: column;
     gap: 10px;
+  }
+  .peaple-parent{
+    flex-direction: column;
   }
 }
