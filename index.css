@@ -65,6 +65,7 @@
   overflow: hidden;
   padding: 0 240px;
   justify-content: center;
+  background-color: #676666;
   background-image: url(./public/hero-no-image@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
