@@ -693,6 +693,8 @@
 .solutions-and-services {
   position: relative;
   line-height: 150%;
+  color: var(--color-white);
+  text-decoration: none;
 }
 .navbar-link {
   display: flex;
