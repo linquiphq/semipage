@@ -38,7 +38,7 @@
         </div>
         <div class="frame-parent">
           <div class="customized-ai-machine-learni-parent">
-            <div class="customized-ai-container">
+            <div class="customized-ai-container" data-animate="animate__animated animate__bounce">
               <span>Customized </span><span class="ai">AI</span><span> & </span
               ><span class="ai">Machine Learning</span><span> Tools</span>
             </div>
@@ -62,7 +62,7 @@
           </div>
           <div class="frame-group">
             <div class="generative-ai-parent">
-              <div class="generative-ai">Generative AI</div>
+              <div class="generative-ai">Generative AI2</div>
               <div class="our-advanced-generative">
                 Our advanced Generative AI technology creates intelligent
                 systems that can independently generate new data, resulting in
@@ -1067,5 +1067,24 @@
         </div>
       </div> -->
     </div>
+  <script>
+    const animatedElements = document.querySelectorAll('[data-animate]');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          if(entry.target.getAttribute('data-animate')){
+            const classList = entry.target.getAttribute('data-animate').split(' ');
+            classList.forEach(function(className){
+              entry.target.classList.add(className);
+            })
+            entry.target.removeAttribute('data-animate')
+          }
+        }
+      });
+    });
+    animatedElements.forEach(element => {
+      observer.observe(element);
+    });
+  </script>
   </body>
 </html>
