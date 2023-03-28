@@ -102,6 +102,7 @@
   align-items: center;
   justify-content: flex-start;
   gap: var(--gap-10xl);
+  text-align: left;
 }
 .generative-ai,
 .our-advanced-generative {
@@ -359,6 +360,7 @@
   font-weight: 500;
   display: inline-block;
   width: 960px;
+  text-align: left;
 }
 .by-focusing-on,
 .frame-parent1 {
