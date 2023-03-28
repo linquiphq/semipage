@@ -603,6 +603,7 @@
   padding: var(--padding-xs) var(--padding-xs) var(--padding-xs)
     var(--padding-5xl);
   color: var(--color-darkgray);
+  resize: none;
 }
 .textarea-wrapper {
   height: 136px;
@@ -629,6 +630,7 @@
   align-items: center;
   justify-content: center;
   color: var(--color-white);
+  outline: none;
 }
 .form {
   width: 460px;
@@ -883,11 +885,17 @@
   .navbar-menu .solutions {
     display: block;
   }
+  .navbar-menu .solutions-and-services, .semicon-software-solution1 {
+    display: none;
+  }
   .navbar-menu .solutions-and-services {
     display: none;
   }
-  .navbar-content {
-    padding-top: 20px;
+  .navbar-link {
+    display: none;
+  }
+  .navbar-logo-left {
+    padding: 16px 24px;
   }
   /*****/
 
