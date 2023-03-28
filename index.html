@@ -38,7 +38,7 @@
         </div>
         <div class="frame-parent">
           <div class="customized-ai-machine-learni-parent">
-            <div class="customized-ai-container" data-animate="animate__animated animate__bounce">
+            <div class="customized-ai-container" data-animate="animate__fadeInDown">
               <span>Customized </span><span class="ai">AI</span><span> & </span
               ><span class="ai">Machine Learning</span><span> Tools</span>
             </div>
@@ -1074,6 +1074,7 @@
         if (entry.isIntersecting) {
           if(entry.target.getAttribute('data-animate')){
             const classList = entry.target.getAttribute('data-animate').split(' ');
+            classList.push("animate__animated");
             classList.forEach(function(className){
               entry.target.classList.add(className);
             })
