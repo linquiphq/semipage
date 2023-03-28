@@ -38,7 +38,7 @@
   border: 0;
   padding: var(--padding-base) var(--padding-21xl);
   background-color: var(--secondary);
-  border-radius: 4px;
+  border-radius: 23px;
   height: 48px;
   flex-shrink: 0;
   display: flex;
